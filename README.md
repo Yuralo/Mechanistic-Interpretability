@@ -25,7 +25,7 @@ Direct Bigram Visualization: We can directly probe the learned bigram relationsh
 
 <hr/>
 
-### 🚧 TODO: Experiment 2: The 1-Layer Transformer (Attention-Only)
+### ⌛ IN_PROGRESS: Experiment 2: The 1-Layer Transformer (Attention-Only)
 
 Building on the 0-layer model, we introduce a single Causal Self-Attention head. No MLPs yet.
 
@@ -36,6 +36,10 @@ Building on the 0-layer model, we introduce a single Causal Self-Attention head.
 Attention Weight Visualization: We will create interactive heatmaps to see which tokens the model is "attending to" when making a prediction for any given token. This is the classic "text hovering" visualization.
 Logit Attribution: We will trace the path from a specific prediction back through the attention mechanism to see which previous tokens contributed most to that prediction.
 
+Additional refernces:
+- Kobayashi et al., Attention is Not Only a Weight: Analyzing Transformers with Vector Norms (EMNLP 2020)
+- Kobayashi et al., Incorporating Residual and Normalization Layers into Analysis of Masked Language Models (EMNLP 2021)
+- Kobayashi et al., Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps (ICLR 2024 Spotlight)
 <hr/>
 
 ### 🚧 TODO: Experiment 3: The 2-Layer Transformer (Attention-Only)
